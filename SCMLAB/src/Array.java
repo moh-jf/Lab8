@@ -1,22 +1,22 @@
 public class Array { 
  
-	 	private static int [] A; 
+	 	private static int [] AA; 
  	 
 	 	public Array() { 
-	 		A = new int[100]; 
+	 		AA = new int[100]; 
 	 	} 
  	 
 	 	public void setArray(int[] v){ 
-	 	 	A = v; 
+	 	 	AA = v; 
 	 	} 
  	 
 	 	public int OCCUR(int key) { 
 	 		
 	 	 	int count = 0; 
 	 	 	
-	 	 	for (int i=0; i < A.length - 1; i++)  	 	
+	 	 	for (int i=0; i < AA.length - 1; i++)  	 	
  	 		
-	 	 		if (A[i]==key) 
+	 	 		if (AA[i]==key) 
 	 	 			count++;  	 
  	 	
  	 			return count; 
