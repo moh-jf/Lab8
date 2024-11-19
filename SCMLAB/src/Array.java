@@ -3,7 +3,7 @@ public class Array {
 	 	private static int [] A; 
  	 
 	 	public Array() { 
-	 		A = new int [10]; 
+	 		A = new int[100]; 
 	 	} 
  	 
 	 	public void setArray(int[] v){ 
